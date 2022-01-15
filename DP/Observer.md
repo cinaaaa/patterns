@@ -85,3 +85,12 @@ export default function App() {
   );
 }
 ```
+
+---
+
+Although we can use the observer pattern in many ways, it can be very useful when working with asynchronous, event-based data. 
+Maybe you want certain components to get notified whenever certain data has finished downloading, or whenever users sent new 
+messages to a message board and all other members should get notified.
+-
+#### Cons
+If an observer becomes too complex, it may cause performance issues when notifying all subscribers.
